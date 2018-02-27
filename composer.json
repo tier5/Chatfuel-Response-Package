@@ -1,0 +1,24 @@
+{
+    "name": "tier5/chatfuel",
+    "description": "Creates json response for chatfuel api.",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+	{
+	   "name": "tier5",
+	   "email": "work@tier5.us"
+	}
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+	"psr-4": {
+          "ChatFuel\\": "src"
+      }
+    }
+}
